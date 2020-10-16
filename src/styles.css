@@ -1,0 +1,274 @@
+body {
+    background: #1E2535;
+}
+
+.modal-window button {
+    position: absolute;
+    width: 188px;
+    height: 42px;
+    left: 20px;
+    top: 79px;
+    background: #83F6B1;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    color: #282A3B;
+    margin-left: 45px;
+}
+
+
+.modal-window button:focus,
+.add-btn {
+    outline: none;
+    box-shadow: none;
+}
+
+#container.hidden {
+    display: none;
+}
+
+#container {
+    display: flex;
+    font-family: 'Commissioner', sans-serif;
+    flex-direction: column;
+    align-items: center;
+    width: 695px;
+    height: 727px;
+    margin: 127px auto 0 auto;
+    background: linear-gradient(177.76deg, #2E354B 0%, #30374C 100%);
+    box-shadow: 25px 25px 50px rgba(24, 28, 38, 0.5);
+    border-radius: 10px;
+}
+
+
+.exit-icon {
+    position: relative;
+    top: 22px;
+    left: 320px;
+    background: url('./assets/close.png') ;
+    width: 12px;
+    height: 12px;
+    
+}
+
+.procent-block {
+    position: relative;
+    top: -12px;
+    width: 68px;
+    height: 24px;
+    color: #272C44;
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    background: #83F6B1;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.heading {
+    display: block;
+    width: 476px;
+    height: 36px;
+    
+    font-family: 'Commissioner', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 100%;
+    /* identical to box height, or 36px */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+.credit-card-icon {
+    position: relative;
+    top: 27px;
+    left: -160px;
+    width: 30px;
+    height: 15px;
+    background: url('./assets/Vector.png') no-repeat;
+    
+}
+.bank-options {
+    width: 392px;
+    height: 40px;
+    background: #3C4561;
+    border-radius: 5px;
+    padding-left: 57px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+
+    color: #EEEEEE;
+}
+
+ul {
+    width: 512px;
+    display: flex;
+    list-style-type: none;
+    margin-top: 35px;
+    height: 218px;
+}
+
+ul li {
+    position: relative;
+    width: 164px;
+    height: 186px;
+    margin-top: 16px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;    
+    align-items: center;
+
+    background: #3C4561;
+    border: 2px solid #91ACD4;
+    box-sizing: border-box;
+    box-shadow: 8px 8px 20px rgba(24, 28, 38, 0.5);
+    border-radius: 5px;
+}
+
+li:hover {
+    border: 2px solid #83F6B1;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 40px rgba(24, 28, 38, 0.5);
+    border-radius: 5px;
+    transform: scale(1.26 , 1.2);  
+    z-index: 9999;
+    
+}
+
+.add-block {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+    text-align: center;
+
+    color: #EEEEEE;
+    margin-bottom: 19px;
+}
+
+.add-block span:first-child {
+    margin-bottom: 11px;
+}
+
+.receive-block {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+
+    text-align: center;
+
+    color: #83F6B1;
+
+}
+
+.receive-block span:first-child {
+    margin-bottom: 11px;
+}
+
+.circle-icon {
+    width: 12px;
+    min-height: 12px;
+    position: relative;
+    background: red;
+    top: 28px;
+    border-radius: 50%;
+    background: #3D455E;
+    border: 2px solid #91ACD4;
+}
+
+li:hover .circle-icon {
+    background-color: #83F6B1;
+    border: 2px solid #83F6B1;
+    background-image: url('./assets/Vector\ 1\ \(Stroke\)\ \(Stroke\).png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat; 
+}
+.price-span {
+    font-size: 22px;
+}
+
+.price-info {
+   
+    width: 476px;
+    height: 16px;
+
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.price-info span {
+    color: #83F6B1;
+
+}
+.add-btn {
+    display: block;
+    width: 133px;
+    padding: 11.5px 0 11.5px 0;
+    text-align: center;
+    background: #83F6B1;
+    border-radius: 5555px;
+}
+
+.add-price-info {
+    
+    width: 417px;
+    height: 28px;
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    /* or 14px */
+
+    text-align: center;
+
+    color: #91ACD4;
+
+    opacity: 0.5;
+}
+
+.btn-more {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    /* identical to box height, or 14px */
+    border-bottom: 2px dashed #91ACD4;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #91ACD4;
+
+    opacity: 0.7;
+}
